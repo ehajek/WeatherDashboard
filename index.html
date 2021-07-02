@@ -9,7 +9,83 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
-    
+    <nav class="navbar bg-custom-2">
+        <h1 class="w-100 text-center">
+            Weather Dashboard
+        </h1>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-4">
+                <p class="search my-1">
+                    Search for a city:
+                </p>
+                <div class="form-outline mb-3 border-bottom border-dark" id="cityInput">
+                    <input type="text" id="form1" class="form-control mb-3" placeholder="Akron"/>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary text-center w-100 mb-3" type="button" id="searchBtn">
+                            Search
+                        </button>
+                    </div>
+                </div>
+                <div id="history"></div>
+            </div>
+            <div class="col-8">
+                <div class="row mr-0">
+                    <div class="col-12 border border-dark m-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <span id="cityName" class="cityName align-middle"></span>
+                                <img id="current-pic" src="placeholder" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="temp">
+                                    Temp:
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="wind">
+                                    Wind:
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="humidity">
+                                    Humidity:
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex">
+                                <p id="indexUV">
+                                    UV Index: 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class ="h3">
+                            5-Day Forecast:
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 "></div>
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 "></div>
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 "></div>
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 "></div>
+                    <div class="col forecast bg-primary text-white ml-3 mb-3 "></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
