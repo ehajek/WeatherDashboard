@@ -5,12 +5,20 @@
   }
 
   .search {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 .h3 {
     font-size: 24px;
     font-weight: bold;
+}
+
+.cityName {
+    font-size: 30px;
+}
+
+.forecastDate {
+    font-size: 18px;
 }
 
