@@ -11,16 +11,33 @@
  .forecast {
      margin-right: 20px;
  }
+ /* #inputBox {
+     margin-bottom: 60px;
+ } */
+
  .search {
     margin-left: 5px;
     margin-right: 5px;
 }
+
 #searchcol {
     margin-left: 10px;
     margin-right: 10px;
 
 }
-#weatherIcons {
+
+#history {
+    margin-top: 10px;
+}
+#historyCard {
+border-bottom: none;
+}
+#weatherIcons  {
     font-size: 65px;
     margin-top: 20px;
+}
+
+#cardDeck {
+    display: flex;
+    justify-content: center;
 }

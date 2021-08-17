@@ -22,13 +22,16 @@
                     Search for a city:
                 </h4>
                 <div class="" id="cityInput">
-                    <div class="input-field col s12 ">
+                    <div class="input-field col s12" id=inputBox>
                         <input type="text" id="citySearch" class="" placeholder="Akron"/>
-                    </div>
-                    <div class="input-group-append">
                         <button class="btn waves-effect waves-light deep-purple darken-3 col s12 hoverable" type="button" id="searchBtn">
                             Search
                         </button>
+                    </div>
+                    <div>
+                        <!-- <button class="btn waves-effect waves-light deep-purple darken-3 col s12 hoverable" type="button" id="searchBtn">
+                            Search
+                        </button> -->
                     </div>
                 </div>
                 <div id="history">                    
@@ -58,8 +61,10 @@
                                 <p id="humidity">
                                     Humidity:
                                 </p>
-                                <p>UV Index: &nbsp</p>
-                                <p id="indexUV"></div>
+                                <p>
+                                    UV Index: <span id="indexUV"></span>
+                                </p>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -70,12 +75,12 @@
                             </h4>
                         </div>
                     </div>
-                    <div class="row">
-                    <div class="col s2 card-panel forecast"></div>
-                    <div class="col s2 card-panel forecast"></div>
-                    <div class="col s2 card-panel forecast"></div>
-                    <div class="col s2 card-panel forecast"></div>
-                    <div class="col s2 card-panel forecast"></div>
+                    <div class="row" id="cardDeck">
+                    <div class="col s2 card-panel grey lighten-5 z-depth-1 forecast"></div>
+                    <div class="col s2 card-panel grey lighten-5 z-depth-1 forecast"></div>
+                    <div class="col s2 card-panel grey lighten-5 z-depth-1 forecast"></div>
+                    <div class="col s2 card-panel grey lighten-5 z-depth-1 forecast"></div>
+                    <div class="col s2 card-panel grey lighten-5 z-depth-1 forecast"></div>
                     </div>
                 </div>
             </div>
