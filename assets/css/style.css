@@ -1,24 +1,26 @@
+ /* Inactive/Active Default input field color */
+ .input-field input[type]:not([readonly]),
+ .input-field input[type]:focus:not([readonly]),
+ .input-field textarea:not([readonly]),
+ .input-field textarea:focus:not([readonly]) {
+     border-bottom: 1px solid #01579b;
+     box-shadow: 0 1px 0 0 #01579b;
+ }
 
-  .bg-custom-2 {
-  background-image: linear-gradient(15deg, blue 0%, indigo 100%);
-  color: white;
-  }
 
-  .search {
-    font-size: 32px;
-    font-weight: bold;
+ .forecast {
+     margin-right: 20px;
+ }
+ .search {
+    margin-left: 5px;
+    margin-right: 5px;
 }
+#searchcol {
+    margin-left: 10px;
+    margin-right: 10px;
 
-.h3 {
-    font-size: 24px;
-    font-weight: bold;
 }
-
-.cityName {
-    font-size: 30px;
+#weatherIcons {
+    font-size: 65px;
+    margin-top: 20px;
 }
-
-.forecastDate {
-    font-size: 18px;
-}
-
